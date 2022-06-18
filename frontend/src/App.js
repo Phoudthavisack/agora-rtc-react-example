@@ -180,7 +180,6 @@ const App = () => {
   const channelName = "comet";
   return (
     <div>
-      test
       {inCall ? (
         <VideoCall setInCall={setInCall} channelName={channelName} />
       ) : (
